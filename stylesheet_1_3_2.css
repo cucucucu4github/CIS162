@@ -20,7 +20,7 @@ body {
 	width: 95%;
 }
 
-ul {
+ul, ol {
 	list-style-position: inside;
 }
 
