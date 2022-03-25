@@ -11,7 +11,7 @@
 
 /* Structural Styles */
 article, aside, figcaption, figure,
-footer, header, main, nav, section {
+footer, header, main, nav, div, section {
 	display: block;
 }
 
