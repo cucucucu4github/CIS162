@@ -1,0 +1,117 @@
+﻿
+/*
+   Project1-3 style sheet
+   Author: Rui Li
+   Date: 2022/02/22  
+   
+   Filename: stylesheet_1_3
+*/
+
+/* HTML and Body Styles */
+
+html {
+	background-image: url(backgroundImage.jpg);
+}
+
+body {
+	color: black;
+	background-color: rgb(222, 184, 135);
+	font-family: Verdana, Geneva, sans-serif;
+	box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+				rgb(51, 51, 51) -15px 0px 25px;
+}
+
+header{
+	background-color:yellow;
+}
+h1 {
+	text-align: center;
+	color: green;
+	font-family: Quicksand, Verdana, Geneva, sans-serif;
+	font-size: 1.7em;
+	line-height: 1.5em;
+	text-shadow: rgb(181, 211, 181) 2px 2px 1px,
+				rgba(21, 21, 21, 0.66) 5px 5px 25px;
+}
+h2 {
+	font-size: 1.2em;
+}
+
+/*----------------------article-----------------*/
+
+article{
+	background-color: rgb(255, 235, 205);
+}
+
+article > h5{
+	color: rgb(47, 79, 79);
+	padding-top: 1.0em;
+	padding-left: 1.0em;
+}
+
+
+/*----------------------div----------------*/
+
+div {
+	background-color:rgb(255, 235, 205);;
+	width:100%;
+	font-size: 1.0em;
+}
+
+div#topRight > h3 {
+	text-align: center;
+	color: white;
+	background-color: rgb(85, 107, 47);
+}
+div > p{
+	line-height: 1.1em;
+	padding-right: 1.0em;
+	padding-left: 1.0em;
+}
+
+/* Image Styles */	
+
+body > header > img {
+	width: 100%;
+}
+
+body > div > img {
+	width:100%;
+}
+
+/* Navigation Styles */	
+nav {
+	font-family: Quicksand, Geneva, sans-serif;
+	font-size: 1.0em;
+}
+nav > ul {
+	line-height: 1.5em;
+}
+nav.mainNav li{
+	display: block;
+}
+nav.mainNav a{
+	display: block;
+	text-align: center;
+	background-color: rgb(143, 188, 143);
+	color: rgb(240,128,128);
+}
+
+/* Footer Styles */
+footer{
+	color: rgb(105, 105, 105);
+	background-color: rgb(222, 184, 135);
+	text-align: center;
+}
+
+footer a{
+	color: rgb(165,42,42);
+}
+
+ul, ol{
+	list-style-position: inside;
+}
+
+
+
+
