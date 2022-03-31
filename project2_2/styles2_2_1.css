@@ -68,9 +68,134 @@ div#rightColumn3{
 	grid-column: 2/5;
 }
 
+
+
+
+
+
+/* Form Styles */
+
+form#survey{
+	grid-row: 3;
+	grid-column: 2/4;
+}
+
+legend {
+	 background-color: rgb(143, 188, 143);
+	 color: black;
+	 padding: 5px;
+}
+
+div.formRow {
+	 display: flex;
+	 flex-flow: row wrap;
+	 margin: 7px 0px;
+}
+
+div.formRow > * {
+	flex: 1 1 150px;
+	text-align: center;
+}
+
+textarea {
+	 margin-top: 10px;
+	 height: 60px;
+	 width: 60%;
+}
+
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+	 font-size: 1.0em;
+	 padding: 3px;
+	 margin: 15px;
+}
+
+
+
+
+/* Gallery Styles */
+
+div.gallery1 {
+	grid-row: 3;
+	margin: 5px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+div.writer1{
+	grid-row: 3;
+	grid-column: 3/5;
+}
+
+div.gallery2 {
+	grid-row: 4;
+	margin: 5px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+div.writer2{
+	grid-row: 4;
+	grid-column: 3/5;
+}
+
+div.gallery3 {
+	grid-row: 5;
+	margin: 5px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+div.writer3{
+	grid-row: 5;
+	grid-column: 3/5;
+}
+
+div.gallery1:hover {
+	border: 1px solid #777;
+}
+
+div.gallery2:hover {
+	border: 1px solid #777;
+}
+
+div.gallery1 img {
+	width: 100%;
+	height: auto;
+}
+
+div.gallery2 img {
+	width: 100%;
+	height: auto;
+}
+
+div.gallery3 img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+div > h5{
+	color: rgb(47, 79, 79);
+	padding-top: 1.0em;
+	padding-left: 1.0em;
+}
+
+div > p{
+	color: rgb(47, 79, 79);
+	padding-top: 1.0em;
+	padding-left: 1.0em;
+}
+
+
 /* Footer Styles */
 footer{
-	grid-row: 6;
+	grid-row: 7;
 	grid-column: 1/5;
 	text-align: center;
 }
