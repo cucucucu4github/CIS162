@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Author: Rui Li
+Date: 2022/3/23
+Filename: index.html
+-->
+	<meta 	charset="utf-8" />
+	<meta 	name="keywords"
+			content="home_page, Rui, Li, CIS162" />
+	<title>Rui Li project 2-2</title>
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Latest compiled JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<link href="https://cucucucu4github.github.io/CIS162/project2_2/reset.css" rel="stylesheet" />
+	<link href="https://cucucucu4github.github.io/CIS162/project2_2/styles2_2.css" rel="stylesheet" />
+	<link href="https://cucucucu4github.github.io/CIS162/project2_2/styles2_2_1.css" rel="stylesheet" />
+	<link href="styles2_2_2.css" rel="stylesheet" />
+</head>
+
+
+<body>
+	<header>
+		<img src="https://cucucucu4github.github.io/CIS162/project2_2/homePage.png" alt="Famous Writers" />
+		<h1>The Famous Writers I know</h1>
+	</header>
+	
+	<article>
+		<h5>This is Rui Li's personal web page.
+			Introduce some of my favorite authors and their works, 
+			and some excerpts from their works
+			with acordion and group card.
+		</h5>
+	</article>
+	
+	<div id="topRight">
+		<h3>Main Nav</h3>
+		<nav class="mainNav">
+			<ul>
+				<li><a href="https://cucucucu4github.github.io/CIS162/project2_2/home.html"><u>Home</u></a></li>
+				<li><a href=""><u>Alexandre Dumas</u></a></li>
+				<li><a href=""><u>Saint-Exupéry</u></a></li>
+				<li><a href=""><u>Lu Xun</u></a></li>
+				<li><a href="https://cucucucu4github.github.io/CIS162/project2_2/nextPage.html"><u>the Accordion and Card Group</u></a></li>
+				<li><a href="https://cucucucu4github.github.io/CIS162/project2_2/survey.html"><u>Survey</u></a></li>
+				<li><a href="https://cucucucu4github.github.io/CIS162/project2_2/gallery.html"><u>Gallery</u></a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<!-- Accordion-->
+	
+	<div id="accordionInfo">
+		<h5><b>Famous Writers</b></h5>
+		<p>
+			Their story <br /><br />
+			How I know them<br /><br />
+			Some intersting facts
+		</p>
+	</div>
+	
+	<div class="accordion" id="accordionExample">
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="headingOne">
+		  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			<b>Alexandre Dumas</b>
+		  </button>
+		</h2>
+		<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			<strong>How I met him: </strong> <br />
+			When I was in elementary school, there was a hardcover copy of The Three Musketeers on the bookcase at the back of our classroom. That was my first encounter with Dumas' novel. When I was a kid, I couldn't read the story, but I picked up this book again after I was in high school and was amazed at how interesting the story was and how well it was worded.
+		  </div>
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="headingTwo">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			<b>Saint-Exupéry</b>
+		  </button>
+		</h2>
+		<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			<strong>How I met him: </strong> <br />
+			I found a book in a bookstore more than ten years ago with a very interesting title, "The Earth of Man". I didn't like to read famous books at the time, and this book was even more boring to read. One night later, when I picked it up again at school, I was attracted by the faint sadness hidden in it, and I will never forget it.
+		  </div>
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="headingThree">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<b>Lu Xun</b>
+		  </button>
+		</h2>
+		<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+		  <div class="accordion-body">
+			<strong>How I met him: </strong> <br />
+			His articles appeared in my middle school and high school textbooks. He was a writer during the Chinese Revolution in the early 20th century, and he wrote many articles critically and questioning the society at that time. Many people hated his articles at first because they were confusing and strange. But after reading it carefully, you will be shocked by his other thoughts of compassion and compassion.
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<!--Card Group-->
+
+	<div class="card-group">
+	  <div class="card">
+		<img src="https://cucucucu4github.github.io/CIS162/project2_2/2.jpg" class="card-img-top" alt="哈哈哈">
+		<div class="card-body">
+		  <h5 class="card-title"><b>The Count of Monte Cristo</b></h5>
+		  <p class="card-text">During the 19th century French Emperor Napoleon's "Hundred Days Dynasty", a young man named Tang Dyce was framed and imprisoned. His father starved to death, his fiancée remarried, and his benefactor was impoverished. After escaping from prison, he obtained a large amount of money, and after careful planning, he repaid his benefactor and punished his enemies.</p>
+		  <p class="card-text"><small class="text-muted">Last updated thousands years ago</small></p>
+		</div>
+	  </div>
+	  <div class="card">
+		<img src="https://cucucucu4github.github.io/CIS162/project2_2/4.jpg" class="card-img-top" alt="呵呵呵">
+		<div class="card-body">
+		  <h5 class="card-title"><b>Terre des Hommes</b></h5>
+		  <p class="card-text">The author has learned a lot of the truth of life in the long flying life. The love for life and the struggle against hardship are vividly displayed in it.</p>
+		  <p class="card-text"><small class="text-muted">Last updated 1 second ago</small></p>
+		</div>
+	  </div>
+	  <div class="card">
+		<img src="https://cucucucu4github.github.io/CIS162/project2_2/6.jpg" class="card-img-top" alt=".嘻嘻嘻">
+		<div class="card-body">
+		  <h5 class="card-title"><b>The True Story of Ah Q</b></h5>
+		  <p class="card-text">Lu Xun wrote Ah Q to satirize the numb mental outlook of people in the society at that time, such as cowardice, spiritual victory, good at speculation, exaggeration and self-esteem. I hope this will awaken the spirit of the people, but "mourning their misfortune and angering them indisputably."</p>
+		  <p class="card-text"><small class="text-muted">Last updated *&*@#$% unit ago</small></p>
+		</div>
+	  </div>
+	</div>
+	
+	<div id="cardGroupInfo">
+		<h5><b>Author Book Card Group</b></h5>
+		<p>
+			The three books on the left are: <br /><br />
+			"The Count of Monte Cristo" <br /> <br />
+			"Terre des Hommes" <br /><br />
+			"The True Story of Ah Q" 
+		</p>
+	</div>
+	
+	<!--Footer update date-->
+	<footer>
+		<h4>Email:<a href="mailto:wo356332459@gmail.com">wo356332459@gmail.com</a></h4>
+		Last updated on Mar. 23th
+	</footer>
+</body>
+</html>

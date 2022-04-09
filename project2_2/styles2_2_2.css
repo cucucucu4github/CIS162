@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*
+   Author: Rui Li
+   Date: 2022/04/08
+   Filename: styles2_2_2.css
+*/
+
+div#accordionInfo{
+	grid-row: 3;
+	grid-column: 1;
+}
+div#accordionExample{
+	grid-row: 3;
+	grid-column: 2/5;
+}
+
+div#cardGroupInfo{
+	grid-row: 4;
+	grid-column: 4;
+}
+div.card-group{
+	grid-row: 4;
+	grid-column: 1/4;
+}
+div.card img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*---------------------------*/
+
+div.accordion-item > h2 > button{
+	background-color: rgb(245, 183, 177);
+}
+div.accordion-item > h2{
+	text-align: center;
+}
