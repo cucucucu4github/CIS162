@@ -1,0 +1,91 @@
+
+html{
+	background-image:url(img/background.jpg);
+}
+body{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color:rgb(233, 150, 122);
+	box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+				rgb(51, 51, 51) -15px 0px 25px;
+}
+h1{
+	text-align: center;
+	font-family: 'Ms Madi', cursive;
+}
+h2{
+	text-align:center;
+	font-size:1.2em;
+	font-family: 'Ms Madi', cursive;
+	margin-bottom: 1.5em;
+}
+h3{
+	text-align:center;
+	font-size:1.5em;
+	margin-top: 1em;
+}
+
+/*Nav Related*/
+div.navDiv{
+	outline: 2px solid black;
+}
+nav.mainNav{
+	background-color:rgb(255, 228, 196);
+}
+nav > ul > li > a{
+	color: rgb(	85,107,47);
+}
+
+.active{
+	color: red;
+}
+
+/*Body Related*/
+div.movieIntroduction{
+	outline: 2px solid rgb(255,235,205);
+}
+img#poster{
+	width:100%;
+	outline: 2px solid black;
+	margin-top: 1em;
+	margin-bottom:0.5em;
+}
+p.introduce{
+	line-height: 4px;
+}
+
+/*introduce*/
+div.leftIntroduce{
+	padding-left:0.5em;
+	padding-right:0.5em;
+	display: block;
+	float: left;
+	width: 50%;
+}
+div.rightIntroduce{
+	padding-left:0.5em;
+	padding-right:0.5em;
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+
+/*Card Group*/
+div.card{
+	background-color:rgb(255, 228, 196);
+}
+
+/*Footer Related*/
+
+footer{
+	background-color: rgb(165, 42, 42);
+	text-align: center;
+}
+p#footerPara{
+	color: rgb(169,169,169);
+}
+footer a{
+	color: rgb(255,228,196);
+}
